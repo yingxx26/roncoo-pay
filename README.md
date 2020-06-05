@@ -1,8 +1,8 @@
 ![logo](logo.png "logo") 
 
 # 龙果支付系统 roncoo-pay
-运营系统地址 localhost:8091/roncoo-pay-web-boss
-商城地址 localhost:8094/roncoo-pay-web-sample-shop
+运营系统地址 localhost:8091/boss  账号：admin 密码：123456
+商城地址 localhost:8094/
  
 龙果支付系统（roncoo-pay）是国内首款开源的互联网支付系统，拥有独立的账户体系、用户体系、支付接入体系、支付交易体系、对账清结算体系。目标是打造一款集成主流支付方式且轻量易用的支付收款系统，满足互联网业务系统打通支付通道实现支付收款和业务资金管理等功能。
 
