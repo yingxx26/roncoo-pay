@@ -1,13 +1,14 @@
 项目结构：
-    roncoo-pay-common-core：公共类工程，不用单独部署
-    roncoo-pay-service：核心业务类工程，不用单独部署
     roncoo-pay-app-notify：通知应用工程，独立jar方式启动
+    roncoo-pay-app-order-polling 轮询,估计是定时任务
     roncoo-pay-app-reconciliation：对账应用工程，独立jar方式启动
     roncoo-pay-app-settlement：结算应用工程，独立jar方式启动
+    roncoo-pay-common-core：公共类工程，不用单独部署
+    roncoo-pay-service：核心业务类工程，不用单独部署
     roncoo-pay-web-boss：运营管理后台，部署tomcat启动
     roncoo-pay-web-gateway：支付网关工程，部署tomcat启动
-    roncoo-pay-web-sample-shop：模拟商城工程，部署tomcat启动
     roncoo-pay-web-merchant：商户后台工程，部署tomcat启动
+    roncoo-pay-web-sample-shop：模拟商城工程，部署tomcat启动
 
 数据表清单：
     对账差错表           rp_account_check_mistake
