@@ -110,6 +110,7 @@ roncoo-pay //龙果支付
 说明：模拟商城模块，提供向支付系统发起支付请求的商城，提供测试方法
 
 ---------
+在线支付演示：http://demo.pay.roncoo.com
 
 在线演示（后台管理）：http://demo.pay.roncoo.com/boss
 
