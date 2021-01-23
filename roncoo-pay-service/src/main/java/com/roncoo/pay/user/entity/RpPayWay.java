@@ -26,19 +26,19 @@ import java.io.Serializable;
  */
 public class RpPayWay extends BaseEntity implements Serializable {
 
-
+    /*支付方式编号*/
     private String payWayCode;
-
+    /*支付方式名称*/
     private String payWayName;
-
+    /*支付类型编号*/
     private String payTypeCode;
-
+    /*支付类型名称*/
     private String payTypeName;
-
+    /*支付产品编号*/
     private String payProductCode;
-
+    /*排序(倒序排序,默认值1000)*/
     private Integer sorts;
-
+    /*商户支付费率*/
     private Double payRate;
 
     private static final long serialVersionUID = 1L;

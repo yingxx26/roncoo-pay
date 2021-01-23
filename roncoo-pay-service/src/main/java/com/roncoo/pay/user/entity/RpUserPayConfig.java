@@ -32,16 +32,17 @@ public class RpUserPayConfig extends BaseEntity implements Serializable {
 
     private String auditStatus;
 
+    /*是否自动结算*/
     private String isAutoSett;
-
+    /*支付产品编号*/
     private String productCode;
-
+    /*支付产品名称*/
     private String productName;
 
     private String userNo;
 
     private String userName;
-
+    /*风险预存期*/
     private Integer riskDay;
     
     private String payKey;

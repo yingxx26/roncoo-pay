@@ -38,37 +38,38 @@ public class RpAccountCheckMistakeScratchPool extends BaseEntity {
 	/** 流水号 **/
 	private String trxNo;
 
-	/** 银行流水号 **/
+	/** 银行订单号 **/
 	private String bankOrderNo;
 
+	/** 银行流水号 **/
 	private String bankTrxNo;
-
+	/** 订单金额 **/
 	private BigDecimal orderAmount;
-
+	/** 平台收入 **/
 	private BigDecimal platIncome;
-
+	/** 费率 **/
 	private BigDecimal feeRate;
-
+	/** 平台成本 **/
 	private BigDecimal platCost;
-
+	/** 平台利润 **/
 	private BigDecimal platProfit;
-
+	/** 支付通道编号 **/
 	private String payWayCode;
-
+	/** 支付通道名称 **/
 	private String payWayName;
-
+	/** 支付成功时间 **/
 	private Date paySuccessTime;
-
+	/** 完成时间 **/
 	private Date completeTime;
-
+	/** 是否退款(100:是,101:否,默认值为:101) **/
 	private String isRefund;
-
+	/** 退款次数(默认值为:0) **/
 	private Short refundTimes;
-
+	/** 成功退款总金额 **/
 	private BigDecimal successRefundAmount;
-
+	/** 结算批次号(结算之后再回写过来) **/
 	private String batchNo;
-
+	/** 账单时间(账单交易发生时间) **/
 	private Date billDate;
 
 	public String getBatchNo() {

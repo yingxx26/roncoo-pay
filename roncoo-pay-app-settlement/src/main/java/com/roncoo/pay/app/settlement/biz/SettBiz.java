@@ -48,9 +48,9 @@ public class SettBiz {
 	/**
 	 * 发起每日待结算数据统计汇总.<br/>
 	 * 
-	 * @param userEnterpriseList
+	 * @param accountList
 	 *            结算商户.<br/>
-	 * @param collectDate
+	 * @param endDate
 	 *            统计截止日期(一般为昨天的日期)
 	 */
 	public void launchDailySettCollect(List<RpAccount> accountList, Date endDate) {
@@ -73,7 +73,7 @@ public class SettBiz {
 	/**
 	 * 发起定期自动结算.<br/>
 	 * 
-	 * @param userEnterpriseList
+	 * @param accountList
 	 *            结算商户.<br/>
 	 */
 	public void launchAutoSett(List<RpAccount> accountList) {
