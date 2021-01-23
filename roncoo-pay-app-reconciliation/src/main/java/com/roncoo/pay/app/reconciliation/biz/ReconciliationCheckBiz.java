@@ -104,9 +104,9 @@ public class ReconciliationCheckBiz {
 	 * 以平台的数据为准对账
 	 * 
 	 * @param platformDateList
-	 *            平台dilldate的成功数据
+	 *            平台dilldate的成功数据（就是龙果这个平台）
 	 * @param bankList
-	 *            银行成功对账单数据
+	 *            银行成功对账单数据(这里只有微信，支付宝)
 	 * 
 	 * @param misTakeList
 	 *            差错list
@@ -124,7 +124,7 @@ public class ReconciliationCheckBiz {
 
 		for (RpTradePaymentRecord record : platformDateList) {
 			Boolean flag = false;// 用于标记是否有匹配
-			// 累计平台交易总金额和总手续费
+			// 累计平台交易总金额 和 总手续费
 			platTradeAmount = platTradeAmount.add(record.getOrderAmount());
 			platFee = platFee.add(record.getPlatCost() == null ? BigDecimal.ZERO : record.getPlatCost());
 			tradeCount++;
